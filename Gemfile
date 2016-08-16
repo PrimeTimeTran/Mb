@@ -13,6 +13,7 @@ gem 'simple_form', '~> 3.2', '>= 3.2.1'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'devise', '~> 4.2'
 
+gem 'rails_12factor', group: 'production'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
