@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
   <!-- Header -->
   <head>
     <title>Mb</title>
@@ -8,7 +7,6 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
   </head>
-  
 <!-- Body -->
 <body>
   <div class="navbar navbar-default">
@@ -27,7 +25,6 @@
       </ul>
       <% if user_signed_in? %>
         <p><%= link_to "New Message", new_message_path, class: "navbar-right navbar-text navbar-link" %></p>
-
       <% end %>
     </div>
   </div>
@@ -37,7 +34,6 @@
     <%= yield %>
   </div>
 </body>
-
   <!-- Footer -->
     <footer>
     </footer>
