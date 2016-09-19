@@ -7,7 +7,6 @@ class MessagesController < ApplicationController
   end
 
   def show
-
   end
 
   def new
@@ -24,7 +23,6 @@ class MessagesController < ApplicationController
   end
 
   def edit
-
   end
 
   def update
